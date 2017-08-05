@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093189CD1F359AB500009387 /* 005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 093189A71F359AB500009387 /* 005.jpg */; };
+		093189CE1F359AB500009387 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 093189A91F359AB500009387 /* AppDelegate.m */; };
+		093189CF1F359AB500009387 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093189AA1F359AB500009387 /* LaunchScreen.xib */; };
+		093189D01F359AB500009387 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 093189AD1F359AB500009387 /* CustomCollectionViewCell.m */; };
+		093189D11F359AB500009387 /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 093189AE1F359AB500009387 /* h1.jpg */; };
+		093189D21F359AB500009387 /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 093189AF1F359AB500009387 /* h2.jpg */; };
+		093189D31F359AB500009387 /* h3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 093189B01F359AB500009387 /* h3.jpg */; };
+		093189D41F359AB500009387 /* h4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 093189B11F359AB500009387 /* h4.jpg */; };
+		093189D51F359AB500009387 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093189B21F359AB500009387 /* Images.xcassets */; };
+		093189D61F359AB500009387 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 093189B31F359AB500009387 /* Info.plist */; };
+		093189D71F359AB500009387 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 093189B81F359AB500009387 /* TAAbstractDotView.m */; };
+		093189D81F359AB500009387 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 093189BA1F359AB500009387 /* TAAnimatedDotView.m */; };
+		093189D91F359AB500009387 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 093189BC1F359AB500009387 /* TADotView.m */; };
+		093189DA1F359AB500009387 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 093189BE1F359AB500009387 /* TAPageControl.m */; };
+		093189DB1F359AB500009387 /* TGRotationViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 093189C01F359AB500009387 /* TGRotationViewCell.m */; };
+		093189DC1F359AB500009387 /* TGRotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 093189C21F359AB500009387 /* TGRotationView.m */; };
+		093189DD1F359AB500009387 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 093189C41F359AB500009387 /* UIView+Extension.m */; };
+		093189DE1F359AB500009387 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 093189C51F359AB500009387 /* main.m */; };
+		093189DF1F359AB500009387 /* pageControlCurrentDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 093189C61F359AB500009387 /* pageControlCurrentDot@2x.png */; };
+		093189E01F359AB500009387 /* pageControlCurrentDot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 093189C71F359AB500009387 /* pageControlCurrentDot@3x.png */; };
+		093189E11F359AB500009387 /* pageControlDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 093189C81F359AB500009387 /* pageControlDot@2x.png */; };
+		093189E21F359AB500009387 /* pageControlDot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 093189C91F359AB500009387 /* pageControlDot@3x.png */; };
+		093189E31F359AB500009387 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 093189CA1F359AB500009387 /* placeholder@2x.png */; };
+		093189E41F359AB500009387 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093189CC1F359AB500009387 /* ViewController.m */; };
+		9BEB00FE3EB709E4FB44BABF /* libPods-SDCycleScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE55CBF170FE2BFA0498D7B2 /* libPods-SDCycleScrollView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9900D1881ABEB2490077A6CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9900D1661ABEB2490077A6CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9900D16D1ABEB2490077A6CB;
+			remoteInfo = SDCycleScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		093189A71F359AB500009387 /* 005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 005.jpg; sourceTree = "<group>"; };
+		093189A81F359AB500009387 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		093189A91F359AB500009387 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		093189AB1F359AB500009387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		093189AC1F359AB500009387 /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		093189AD1F359AB500009387 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
+		093189AE1F359AB500009387 /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
+		093189AF1F359AB500009387 /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
+		093189B01F359AB500009387 /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h3.jpg; sourceTree = "<group>"; };
+		093189B11F359AB500009387 /* h4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h4.jpg; sourceTree = "<group>"; };
+		093189B21F359AB500009387 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		093189B31F359AB500009387 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093189B71F359AB500009387 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		093189B81F359AB500009387 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		093189B91F359AB500009387 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		093189BA1F359AB500009387 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		093189BB1F359AB500009387 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		093189BC1F359AB500009387 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		093189BD1F359AB500009387 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		093189BE1F359AB500009387 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		093189BF1F359AB500009387 /* TGRotationViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRotationViewCell.h; sourceTree = "<group>"; };
+		093189C01F359AB500009387 /* TGRotationViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRotationViewCell.m; sourceTree = "<group>"; };
+		093189C11F359AB500009387 /* TGRotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRotationView.h; sourceTree = "<group>"; };
+		093189C21F359AB500009387 /* TGRotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRotationView.m; sourceTree = "<group>"; };
+		093189C31F359AB500009387 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		093189C41F359AB500009387 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		093189C51F359AB500009387 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		093189C61F359AB500009387 /* pageControlCurrentDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlCurrentDot@2x.png"; sourceTree = "<group>"; };
+		093189C71F359AB500009387 /* pageControlCurrentDot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlCurrentDot@3x.png"; sourceTree = "<group>"; };
+		093189C81F359AB500009387 /* pageControlDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlDot@2x.png"; sourceTree = "<group>"; };
+		093189C91F359AB500009387 /* pageControlDot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlDot@3x.png"; sourceTree = "<group>"; };
+		093189CA1F359AB500009387 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
+		093189CB1F359AB500009387 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		093189CC1F359AB500009387 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5901AA37D1ED166BA94A95E0 /* Pods-SDCycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCycleScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDCycleScrollView/Pods-SDCycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		5F55240E74603C429F5220D2 /* Pods-SDCycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDCycleScrollView/Pods-SDCycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		9900D16E1ABEB2490077A6CB /* SDCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9900D1871ABEB2490077A6CB /* SDCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE55CBF170FE2BFA0498D7B2 /* libPods-SDCycleScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDCycleScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9900D16B1ABEB2490077A6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BEB00FE3EB709E4FB44BABF /* libPods-SDCycleScrollView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9900D1841ABEB2490077A6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093189A61F359AB500009387 /* TGRotationView */ = {
+			isa = PBXGroup;
+			children = (
+				093189A71F359AB500009387 /* 005.jpg */,
+				093189A81F359AB500009387 /* AppDelegate.h */,
+				093189A91F359AB500009387 /* AppDelegate.m */,
+				093189AA1F359AB500009387 /* LaunchScreen.xib */,
+				093189AC1F359AB500009387 /* CustomCollectionViewCell.h */,
+				093189AD1F359AB500009387 /* CustomCollectionViewCell.m */,
+				093189AE1F359AB500009387 /* h1.jpg */,
+				093189AF1F359AB500009387 /* h2.jpg */,
+				093189B01F359AB500009387 /* h3.jpg */,
+				093189B11F359AB500009387 /* h4.jpg */,
+				093189B21F359AB500009387 /* Images.xcassets */,
+				093189B31F359AB500009387 /* Info.plist */,
+				093189B41F359AB500009387 /* Lib */,
+				093189C51F359AB500009387 /* main.m */,
+				093189C61F359AB500009387 /* pageControlCurrentDot@2x.png */,
+				093189C71F359AB500009387 /* pageControlCurrentDot@3x.png */,
+				093189C81F359AB500009387 /* pageControlDot@2x.png */,
+				093189C91F359AB500009387 /* pageControlDot@3x.png */,
+				093189CA1F359AB500009387 /* placeholder@2x.png */,
+				093189CB1F359AB500009387 /* ViewController.h */,
+				093189CC1F359AB500009387 /* ViewController.m */,
+			);
+			path = TGRotationView;
+			sourceTree = "<group>";
+		};
+		093189B41F359AB500009387 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				093189B51F359AB500009387 /* TGRotationView */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		093189B51F359AB500009387 /* TGRotationView */ = {
+			isa = PBXGroup;
+			children = (
+				093189B61F359AB500009387 /* PageControl */,
+				093189BF1F359AB500009387 /* TGRotationViewCell.h */,
+				093189C01F359AB500009387 /* TGRotationViewCell.m */,
+				093189C11F359AB500009387 /* TGRotationView.h */,
+				093189C21F359AB500009387 /* TGRotationView.m */,
+				093189C31F359AB500009387 /* UIView+Extension.h */,
+				093189C41F359AB500009387 /* UIView+Extension.m */,
+			);
+			path = TGRotationView;
+			sourceTree = "<group>";
+		};
+		093189B61F359AB500009387 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				093189B71F359AB500009387 /* TAAbstractDotView.h */,
+				093189B81F359AB500009387 /* TAAbstractDotView.m */,
+				093189B91F359AB500009387 /* TAAnimatedDotView.h */,
+				093189BA1F359AB500009387 /* TAAnimatedDotView.m */,
+				093189BB1F359AB500009387 /* TADotView.h */,
+				093189BC1F359AB500009387 /* TADotView.m */,
+				093189BD1F359AB500009387 /* TAPageControl.h */,
+				093189BE1F359AB500009387 /* TAPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		570A4158ABBA037265E03A8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F55240E74603C429F5220D2 /* Pods-SDCycleScrollView.debug.xcconfig */,
+				5901AA37D1ED166BA94A95E0 /* Pods-SDCycleScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9900D1651ABEB2490077A6CB = {
+			isa = PBXGroup;
+			children = (
+				093189A61F359AB500009387 /* TGRotationView */,
+				9900D16F1ABEB2490077A6CB /* Products */,
+				570A4158ABBA037265E03A8B /* Pods */,
+				AB85341EE3F3D30597B024D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9900D16F1ABEB2490077A6CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9900D16E1ABEB2490077A6CB /* SDCycleScrollView.app */,
+				9900D1871ABEB2490077A6CB /* SDCycleScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB85341EE3F3D30597B024D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE55CBF170FE2BFA0498D7B2 /* libPods-SDCycleScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9900D16D1ABEB2490077A6CB /* SDCycleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9900D1911ABEB2490077A6CB /* Build configuration list for PBXNativeTarget "SDCycleScrollView" */;
+			buildPhases = (
+				4D98B14AD917D2D90CD5618A /* [CP] Check Pods Manifest.lock */,
+				9900D16A1ABEB2490077A6CB /* Sources */,
+				9900D16B1ABEB2490077A6CB /* Frameworks */,
+				9900D16C1ABEB2490077A6CB /* Resources */,
+				E493DAE9AB9CFD1B50FD213D /* [CP] Embed Pods Frameworks */,
+				C797362FCF67A7B71DDF0C59 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDCycleScrollView;
+			productName = SDCycleScrollView;
+			productReference = 9900D16E1ABEB2490077A6CB /* SDCycleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9900D1861ABEB2490077A6CB /* SDCycleScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9900D1941ABEB2490077A6CB /* Build configuration list for PBXNativeTarget "SDCycleScrollViewTests" */;
+			buildPhases = (
+				9900D1831ABEB2490077A6CB /* Sources */,
+				9900D1841ABEB2490077A6CB /* Frameworks */,
+				9900D1851ABEB2490077A6CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9900D1891ABEB2490077A6CB /* PBXTargetDependency */,
+			);
+			name = SDCycleScrollViewTests;
+			productName = SDCycleScrollViewTests;
+			productReference = 9900D1871ABEB2490077A6CB /* SDCycleScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9900D1661ABEB2490077A6CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = GSD;
+				TargetAttributes = {
+					9900D16D1ABEB2490077A6CB = {
+						CreatedOnToolsVersion = 6.1;
+						ProvisioningStyle = Automatic;
+					};
+					9900D1861ABEB2490077A6CB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 9900D16D1ABEB2490077A6CB;
+					};
+				};
+			};
+			buildConfigurationList = 9900D1691ABEB2490077A6CB /* Build configuration list for PBXProject "TGRotationView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9900D1651ABEB2490077A6CB;
+			productRefGroup = 9900D16F1ABEB2490077A6CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9900D16D1ABEB2490077A6CB /* SDCycleScrollView */,
+				9900D1861ABEB2490077A6CB /* SDCycleScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9900D16C1ABEB2490077A6CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093189E01F359AB500009387 /* pageControlCurrentDot@3x.png in Resources */,
+				093189D21F359AB500009387 /* h2.jpg in Resources */,
+				093189D51F359AB500009387 /* Images.xcassets in Resources */,
+				093189E11F359AB500009387 /* pageControlDot@2x.png in Resources */,
+				093189E21F359AB500009387 /* pageControlDot@3x.png in Resources */,
+				093189D61F359AB500009387 /* Info.plist in Resources */,
+				093189D31F359AB500009387 /* h3.jpg in Resources */,
+				093189E31F359AB500009387 /* placeholder@2x.png in Resources */,
+				093189CF1F359AB500009387 /* LaunchScreen.xib in Resources */,
+				093189D41F359AB500009387 /* h4.jpg in Resources */,
+				093189D11F359AB500009387 /* h1.jpg in Resources */,
+				093189CD1F359AB500009387 /* 005.jpg in Resources */,
+				093189DF1F359AB500009387 /* pageControlCurrentDot@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9900D1851ABEB2490077A6CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D98B14AD917D2D90CD5618A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C797362FCF67A7B71DDF0C59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDCycleScrollView/Pods-SDCycleScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E493DAE9AB9CFD1B50FD213D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDCycleScrollView/Pods-SDCycleScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9900D16A1ABEB2490077A6CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093189DA1F359AB500009387 /* TAPageControl.m in Sources */,
+				093189D01F359AB500009387 /* CustomCollectionViewCell.m in Sources */,
+				093189D91F359AB500009387 /* TADotView.m in Sources */,
+				093189DD1F359AB500009387 /* UIView+Extension.m in Sources */,
+				093189D71F359AB500009387 /* TAAbstractDotView.m in Sources */,
+				093189DC1F359AB500009387 /* TGRotationView.m in Sources */,
+				093189E41F359AB500009387 /* ViewController.m in Sources */,
+				093189CE1F359AB500009387 /* AppDelegate.m in Sources */,
+				093189D81F359AB500009387 /* TAAnimatedDotView.m in Sources */,
+				093189DE1F359AB500009387 /* main.m in Sources */,
+				093189DB1F359AB500009387 /* TGRotationViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9900D1831ABEB2490077A6CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9900D1891ABEB2490077A6CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9900D16D1ABEB2490077A6CB /* SDCycleScrollView */;
+			targetProxy = 9900D1881ABEB2490077A6CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		093189AA1F359AB500009387 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093189AB1F359AB500009387 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9900D18F1ABEB2490077A6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9900D1901ABEB2490077A6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9900D1921ABEB2490077A6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F55240E74603C429F5220D2 /* Pods-SDCycleScrollView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TGRotationView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9900D1931ABEB2490077A6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5901AA37D1ED166BA94A95E0 /* Pods-SDCycleScrollView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TGRotationView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9900D1951ABEB2490077A6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TGRotationViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGRotationView.app/TGRotationView";
+			};
+			name = Debug;
+		};
+		9900D1961ABEB2490077A6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TGRotationViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TGRotationView.app/TGRotationView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9900D1691ABEB2490077A6CB /* Build configuration list for PBXProject "TGRotationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9900D18F1ABEB2490077A6CB /* Debug */,
+				9900D1901ABEB2490077A6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9900D1911ABEB2490077A6CB /* Build configuration list for PBXNativeTarget "SDCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9900D1921ABEB2490077A6CB /* Debug */,
+				9900D1931ABEB2490077A6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9900D1941ABEB2490077A6CB /* Build configuration list for PBXNativeTarget "SDCycleScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9900D1951ABEB2490077A6CB /* Debug */,
+				9900D1961ABEB2490077A6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9900D1661ABEB2490077A6CB /* Project object */;
+}
